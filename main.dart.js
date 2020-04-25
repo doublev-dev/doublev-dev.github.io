@@ -25535,7 +25535,7 @@ T.pR.prototype={
 aD:function(){return new T.GE(C.r)}}
 T.GE.prototype={
 aS:function(){this.b4()
-var t=new V.Eu("https://video.openedu.tw/Examples/big_buck_bunny_720p_1mb.mp4",V.a38(C.v_,C.pq,null,null,!1,!1,!1,C.a0,null,1),new R.aj(H.a([],u.u),u.A))
+var t=new V.Eu("videos/dreamhouse.mp4",V.a38(C.v_,C.pq,null,null,!1,!1,!1,C.a0,null,1),new R.aj(H.a([],u.u),u.A))
 t.j9(0).bt(new T.Wa(this),u.P)
 this.d=t},
 H:function(a){var t,s=null,r=this.d,q=r.a
@@ -44962,9 +44962,9 @@ $.aY.a3$.push(l)
 l=u.U
 p=u.h
 q.ch=new P.aI(new P.L($.G,l),p)
-switch(C.ha){case C.iZ:o=new V.oh(C.iZ,null,null,q.d,null)
+switch(C.ha){case C.ha:o=new V.oh(C.ha,null,null,q.d,null)
 break
-case C.ha:o=new V.oh(C.ha,q.d,null,null,null)
+case C.iZ:o=new V.oh(C.iZ,q.d,null,null,null)
 break
 case C.j_:o=new V.oh(C.j_,q.d,null,null,null)
 break
@@ -45161,9 +45161,9 @@ mS:function(a){return C.cc.cf("dispose",P.aF(["textureId",a],u.N,u.z),!1,u.H)},
 hS:function(a,b){return this.NV(a,b)},
 NV:function(a,b){var t=0,s=P.a0(u.S),r,q,p
 var $async$hS=P.V(function(c,d){if(c===1)return P.Y(d,s)
-while(true)switch(t){case 0:switch(b.a){case C.iZ:q=P.aF(["asset",b.d,"package",b.e],u.N,u.z)
+while(true)switch(t){case 0:switch(b.a){case C.ha:q=P.aF(["asset",b.d,"package",b.e],u.N,u.z)
 break
-case C.ha:q=P.aF(["uri",b.b,"formatHint",C.NZ.h(0,b.c)],u.N,u.z)
+case C.iZ:q=P.aF(["uri",b.b,"formatHint",C.NZ.h(0,b.c)],u.N,u.z)
 break
 case C.j_:q=P.aF(["uri",b.b],u.N,u.z)
 break
@@ -45263,9 +45263,9 @@ hS:function(a,b){return this.NW(a,b)},
 NW:function(a,b){var t=0,s=P.a0(u.S),r,q=this,p,o,n,m
 var $async$hS=P.V(function(c,d){if(c===1)return P.Y(d,s)
 while(true)$async$outer:switch(t){case 0:m=q.b++
-switch(b.a){case C.ha:p=P.T_(b.b)
+switch(b.a){case C.iZ:p=P.T_(b.b)
 break
-case C.iZ:o=b.d
+case C.ha:o=b.d
 p=P.T_($.J7.nW(o))
 break
 case C.j_:r=P.ZW(new P.rx("web implementation of video_player cannot play local files"),null,u.S)
@@ -47108,8 +47108,8 @@ C.h4=new P.K(1493172224)
 C.pY=new E.dO(C.h4,null,null,C.h4,C.h5,C.h4,C.h5,C.h4,C.h5,C.h4,C.h5,0)
 C.iY=new K.xF("CupertinoUserInterfaceLevelData.base")
 C.pZ=new K.xF("CupertinoUserInterfaceLevelData.elevated")
-C.iZ=new V.oi("DataSourceType.asset")
-C.ha=new V.oi("DataSourceType.network")
+C.ha=new V.oi("DataSourceType.asset")
+C.iZ=new V.oi("DataSourceType.network")
 C.j_=new V.oi("DataSourceType.file")
 C.BN=new A.KS("DebugSemanticsDumpOrder.traversalOrder")
 C.j0=new E.xO("DecorationPosition.background")
