@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="doublev_client">
+  <meta name="google-signin-client_id" content="1016279041767-b53lmjlf4k59rc8kaeqvtv0bkq02qeg2.apps.googleusercontent.com">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,6 +29,35 @@
       });
     }
   </script>
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- <script src="/__/firebase/7.14.2/firebase-app.js"></script> -->
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <!-- <script src="/__/firebase/7.14.2/firebase-analytics.js"></script> -->
+
+  <!-- Initialize Firebase -->
+  <!-- <script src="/__/firebase/init.js"></script> -->
+  <script src='https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js'></script>
+  <script src='https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js'></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDY7xzO586YJmPIIGssX9lmKW_TtQktgbQ",
+      authDomain: "doublev-dev.firebaseapp.com",
+      databaseURL: "https://doublev-dev.firebaseio.com",
+      projectId: "doublev-dev",
+      storageBucket: "doublev-dev.appspot.com",
+      messagingSenderId: "1016279041767",
+      appId: "1:1016279041767:web:28686e2c4a3a3b73d74442",
+      measurementId: "G-BWHHMHBV3F"
+    };
+    firebase.initializeApp(firebaseConfig);
+    // firebase.analytics();
+  </script>
   <script src="main.dart.js" type="application/javascript"></script>
+
+
 </body>
 </html>
